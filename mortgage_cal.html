@@ -57,7 +57,7 @@
                         </div>
 
                         <div>
-                            <label for="interestRateInput">Interest Rate Annunly:</label>
+                            <label for="interestRateInput">Interest Rate Annually:</label>
                             <input id="interestRateInput" type="text">
                         </div>
 
@@ -68,16 +68,17 @@
 
                         <div>
                             <input id="calculateBtn" type="button" value="Calculate">
+                            <input id="resetBtn" type="button" value="Reset"> 
                         </div>
 
                         <div>
                             <label for="monthlyPaymentOutput">Estimated Monthly Payment:</label>
-                            <input id="monthlyPaymentOutput" type="text"> 
+                            <input id="monthlyPaymentOutput" type="text" readonly > 
                         </div>
 
                         <div>
                             <label for="totalInterestOutput">Total Interest Paid:</label>
-                            <input id="totalInterestOutput" type="text">
+                            <input id="totalInterestOutput" type="text" readonly >
                         </div>
                     </form>
 
@@ -96,7 +97,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <script src="scripts/mortgage.js"></script>
+        <script src="scripts/mortgage_cal.js"></script>
     <script src="scripts/site.js"></script>
 </body>
 
